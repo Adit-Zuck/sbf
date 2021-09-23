@@ -21,7 +21,7 @@ except ImportError:
 ### USERAGENT ###
 ua = ('Mozilla/5.0 (Linux; Android 5.0; Lenovo A1000 Build/S100; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 [FB_IAB/MESSENGER;FBAV/110.0.0.14.69;]')
 ### Logo ###
-logo = """ _____  __ ____  _____
+logo = """ ______  ______  _____
 /  ____| __ )|  ___| au:>Adit-zuck
   / ___|  _ \| |_    github:>Adit-zuck
 _____  | |_) |  _|   efbi:dit oni chan
@@ -63,12 +63,12 @@ def komen(): # Boleh Di Tanbahin Jangan Di Ganti #
 def login():
     os.system('clear')
     print logo
-    print('──────────────────────────────────────────')
+    print('=========================================')
     print('[1] Login Pakai Token')
     print('[2] Login Pakai Cookies')
     print('[3] Cara Dapat Token/Cookies')
     print('[0] Keluar')
-    print('──────────────────────────────────────────')
+    print('=========================================')
     lg = raw_input('[?] Input : ')
     if lg == '':
         os.sys.exit()
@@ -148,18 +148,18 @@ def menu():
     exit('[x] Koneksi Error')
   os.system("clear")
   print logo
-  print('──────────────────────────────────────────')
+  print('==========================================')
   print('[•] Nama : '+nm)
   print('[•] Your ID : '+id)
   print('[•] Birthday : '+tl)
-  print('──────────────────────────────────────────')
+  print('===========================================')
   print('[1] Crack ID Dari Teman')
   print('[2] Crack ID Dari Publik')
   print('[3] Crack ID Dari Followers')
   print('[4] Crack ID Dari Like')
   print('[5] Lihat Hasil Crack')
   print('[0] Keluar & Hapus Token/Cookies')
-  print('──────────────────────────────────────────')
+  print('==========================================')
   mn=raw_input("[?] Input : ")
   if mn=="":
 	print ('[x] Isi Dengan Benar')
