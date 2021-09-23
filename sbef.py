@@ -219,7 +219,7 @@ def teman():
                 login()
         try:
 		limit = '5000'
-                file = 'ditz.json'
+                file = 'rozhak.json'
 		print('──────────────────────────────────────────')
 		print('[•] Nama File : '+file)
                 try:
@@ -257,7 +257,7 @@ def followers():
 		print('──────────────────────────────────────────')
                 idt = raw_input("[•] ID Profil : ")
                 limit = '5000'
-                file = 'ditz.json'
+                file = 'rozhak.json'
 		print('[•] Nama File : '+file)
                 try:
                         jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
@@ -301,7 +301,7 @@ def like():
 		print('──────────────────────────────────────────')
                 idt = raw_input("[•] ID Post : ")
 		limit = '5000'
-                file = 'ditz.json'
+                file = 'rozhak.json'
 		print('[•] Nama File : '+file)
                 try:
                    r=requests.get("https://graph.facebook.com/"+idt+"/likes?limit="+limit+"&access_token="+toket)
@@ -342,7 +342,7 @@ def publik():
 		print('──────────────────────────────────────────')
 		idt = raw_input("[•] ID Profil : ")
 		limit = '5000'
-		file = 'ditz.json'
+		file = 'rozhak.json'
 		print('[•] Nama File : '+file)
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
@@ -510,7 +510,7 @@ class crack:
 				try:
 					while True:
 						try:
-							self.apk= 'ditz.json'
+							self.apk= 'rozhak.json'
 							self.fs=open(self.apk).read().splitlines()
 							break
 						except Exception as e:
@@ -532,7 +532,7 @@ class crack:
 				try:
 					while True:
 						try:
-							self.apk= 'ditz.json'
+							self.apk= 'rozhak.json'
 							self.fs=open(self.apk).read().splitlines()
 							break
 						except Exception as e:
@@ -617,7 +617,7 @@ class crack1:
 				try:
 					while True:
 						try:
-							self.apk= 'ditz.json'
+							self.apk= 'rozhak.json'
 							self.fs=open(self.apk).read().splitlines()
 							break
 						except Exception as e:
@@ -639,7 +639,7 @@ class crack1:
 				try:
 					while True:
 						try:
-							self.apk= 'ditz.json'
+							self.apk= 'rozhak.json'
 							self.fs=open(self.apk).read().splitlines()
 							break
 						except Exception as e:
@@ -723,7 +723,7 @@ class crack2:
 				try:
 					while True:
 						try:
-							self.apk= 'ditz.json'
+							self.apk= 'rozhak.json'
 							self.fs=open(self.apk).read().splitlines()
 							break
 						except Exception as e:
@@ -745,7 +745,7 @@ class crack2:
 				try:
 					while True:
 						try:
-							self.apk= 'ditz.json'
+							self.apk= 'rozhak.json'
 							self.fs=open(self.apk).read().splitlines()
 							break
 						except Exception as e:
