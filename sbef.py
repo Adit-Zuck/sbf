@@ -64,10 +64,10 @@ def login():
     os.system('clear')
     print logo
     print('=========================================')
-    print('\x1b[0;34m [1] Login Pakai Token')
-    print('\x1b[0;34m [2] Login Pakai Cookies')
-    print('\x1b[0;34m [3] Cara Dapat Token/Cookies')
-    print('\x1b[0;34m [0] Keluar')
+    print('[1] Login Pakai Token')
+    print('[2] Login Pakai Cookies')
+    print('[3] Cara Dapat Token/Cookies')
+    print('[0] Keluar')
     print('=========================================')
     lg = raw_input('[?] Input : ')
     if lg == '':
